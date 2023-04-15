@@ -1,0 +1,22 @@
+[{
+        "id": 1,
+        "image": "/img/slid/n/service_01.jpg",
+        "icon": "home-1",
+        "title": "Weddings and Aniversaries",
+        "description": "We are committed to providing you with an experience beyond your expectations. Choose one of Mon Reve's event venue’s for your special day that will leave a lasting impression on your loved ones and your guests."
+    },
+    {
+        "id": 2,
+        "image": "/img/slid/n/service_02.jpg",
+        "icon": "living-room",
+        "title": "Birthdays and Baby Showers",
+        "description": "No matter the year to be celebrated, Mon Reve will help you to coordinate a memorable birthday party.If you are planning to host a baby shower, a popular option is to book one of Mon Reve's event venue’s"
+    },
+    {
+        "id": 3,
+        "image": "/img/slid/n/service_03.jpg",
+        "icon": "interior-design",
+        "title": "Coporate Events and Many More",
+        "description": "We cater to executive board meetings, strategy sessions, conferences, training sessions and workshops. Mon Reve is a quiet place that allows for uninterrupted strategic planning, creativity and new idea creation."
+    }
+]

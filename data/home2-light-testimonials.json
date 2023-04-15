@@ -1,0 +1,22 @@
+[{
+        "id": 1,
+        "quote": "My husband and I got married at Mon Reve over the weekend and it was incredible, despite the hectic planning.",
+        "author": "Kate Watson",
+        "position": "Wedding",
+        "image": "/img/clients/1.jpg"
+    },
+    {
+        "id": 2,
+        "quote": "Every January our company hosts a Banquet for our employees. We have used Mon Reve for the past 2 years. Why? The service is excellent",
+        "author": "Peter Pierre-Louis",
+        "position": "Coporate Dinner",
+        "image": "/img/clients/2.png"
+    },
+    {
+        "id": 3,
+        "quote": "Mon Reve really is the premier event space in New York. They are a great venue: clean, gorgeous, elegant and very workable for a lot of different kinds of events.",
+        "author": "Kate Winter",
+        "position": "Wedding Anniversary",
+        "image": "/img/clients/3.png"
+    }
+]
