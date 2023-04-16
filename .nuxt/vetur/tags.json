@@ -1,24 +1,24 @@
 {
-  "AboutAbout": {
-    "description": "Auto imported from components/About-About/index.vue"
+  "AboutHeader": {
+    "description": "Auto imported from components/About-Header/index.vue"
   },
   "AboutSkills": {
     "description": "Auto imported from components/About-Skills/index.vue"
   },
-  "AboutHeader": {
-    "description": "Auto imported from components/About-Header/index.vue"
+  "AboutAbout": {
+    "description": "Auto imported from components/About-About/index.vue"
   },
   "BlogsBlogs": {
     "description": "Auto imported from components/Blogs-Blogs/index.vue"
-  },
-  "BookEventIntro": {
-    "description": "Auto imported from components/Book-Event-Intro/index.vue"
   },
   "BookVenueForm": {
     "description": "Auto imported from components/Book-Venue-Section/Book-Venue-Form.vue"
   },
   "BookVenueSection": {
     "description": "Auto imported from components/Book-Venue-Section/index.vue"
+  },
+  "ComingSoon": {
+    "description": "Auto imported from components/Coming-Soon/index.vue"
   },
   "ContactForm": {
     "description": "Auto imported from components/Contact-Sections/Contact-Form.vue"
@@ -32,26 +32,29 @@
   "ContactSections": {
     "description": "Auto imported from components/Contact-Sections/index.vue"
   },
-  "DemosHeader": {
-    "description": "Auto imported from components/Demos-Header/index.vue"
-  },
   "DemosMasonery": {
     "description": "Auto imported from components/Demos-Masonery/index.vue"
+  },
+  "DemosHeader": {
+    "description": "Auto imported from components/Demos-Header/index.vue"
   },
   "Footer": {
     "description": "Auto imported from components/Footer/index.vue"
   },
+  "BookEventIntro": {
+    "description": "Auto imported from components/Book-Event-Intro/index.vue"
+  },
   "Header2": {
     "description": "Auto imported from components/Header2/index.vue"
-  },
-  "Home1About": {
-    "description": "Auto imported from components/Home1-About/index.vue"
   },
   "Home1Header": {
     "description": "Auto imported from components/Home1-Header/index.vue"
   },
   "Home1LightAbout": {
     "description": "Auto imported from components/Home1-Light-About/index.vue"
+  },
+  "Home1About": {
+    "description": "Auto imported from components/Home1-About/index.vue"
   },
   "Home1LightContact": {
     "description": "Auto imported from components/Home1-Light-Contact/index.vue"
@@ -64,15 +67,6 @@
   },
   "Home1LightServices": {
     "description": "Auto imported from components/Home1-Light-Services/index.vue"
-  },
-  "Home1LightSkills": {
-    "description": "Auto imported from components/Home1-Light-Skills/index.vue"
-  },
-  "Home1LightTeam": {
-    "description": "Auto imported from components/Home1-Light-Team/index.vue"
-  },
-  "Home1LightTestimonials": {
-    "description": "Auto imported from components/Home1-Light-Testimonials/index.vue"
   },
   "Home1LightWorks": {
     "description": "Auto imported from components/Home1-Light-Works/index.vue"
@@ -95,26 +89,26 @@
   "Home1Works": {
     "description": "Auto imported from components/Home1-Works/index.vue"
   },
+  "Home1LightSkills": {
+    "description": "Auto imported from components/Home1-Light-Skills/index.vue"
+  },
+  "Home1LightTeam": {
+    "description": "Auto imported from components/Home1-Light-Team/index.vue"
+  },
+  "Home1LightTestimonials": {
+    "description": "Auto imported from components/Home1-Light-Testimonials/index.vue"
+  },
   "Home2About": {
     "description": "Auto imported from components/Home2-About/index.vue"
   },
   "Home2Circle": {
     "description": "Auto imported from components/Home2-Circle/index.vue"
   },
-  "Home2Header": {
-    "description": "Auto imported from components/Home2-Header/index.vue"
-  },
   "Home2LightAbout": {
     "description": "Auto imported from components/Home2-Light-About/index.vue"
   },
-  "Home2LightBrands": {
-    "description": "Auto imported from components/Home2-Light-Brands/index.vue"
-  },
-  "Home2LightHeader": {
-    "description": "Auto imported from components/Home2-Light-Header/index.vue"
-  },
-  "Home2LightNews": {
-    "description": "Auto imported from components/Home2-Light-News/index.vue"
+  "Home2Header": {
+    "description": "Auto imported from components/Home2-Header/index.vue"
   },
   "Home2LightProcess": {
     "description": "Auto imported from components/Home2-Light-Process/index.vue"
@@ -131,17 +125,26 @@
   "Home2News": {
     "description": "Auto imported from components/Home2-News/index.vue"
   },
-  "Home2Process": {
-    "description": "Auto imported from components/Home2-Process/index.vue"
+  "Home2LightHeader": {
+    "description": "Auto imported from components/Home2-Light-Header/index.vue"
   },
   "Home2Services": {
     "description": "Auto imported from components/Home2-Services/index.vue"
+  },
+  "Home2Process": {
+    "description": "Auto imported from components/Home2-Process/index.vue"
   },
   "Home2Video": {
     "description": "Auto imported from components/Home2-Video/index.vue"
   },
   "Home2Works": {
     "description": "Auto imported from components/Home2-Works/index.vue"
+  },
+  "Home2LightBrands": {
+    "description": "Auto imported from components/Home2-Light-Brands/index.vue"
+  },
+  "Home2LightNews": {
+    "description": "Auto imported from components/Home2-Light-News/index.vue"
   },
   "Home3About": {
     "description": "Auto imported from components/Home3-About/index.vue"
@@ -272,10 +275,10 @@
   "WorksWorks1": {
     "description": "Auto imported from components/Works-Works1/index.vue"
   },
-  "WorksWorks3": {
-    "description": "Auto imported from components/Works-Works3/index.vue"
-  },
   "WorksWorks2": {
     "description": "Auto imported from components/Works-Works2/index.vue"
+  },
+  "WorksWorks3": {
+    "description": "Auto imported from components/Works-Works3/index.vue"
   }
 }
