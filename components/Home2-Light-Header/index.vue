@@ -17,9 +17,9 @@
                         <NuxtLink to="#0">{{ slide.title }}</NuxtLink>
                       </h1>
                     </div>
-                    <p>Right design and right ideas matter a lot of in interior design business. <br> a style that makes a statement.</p>
+                    <p>We make quality-focused web & interactive experiences, branding, apps, and creative solutions that both add value to your organization and reflect your brand’s messaging.</p>
                     <NuxtLink to="#0" class="btn-curve btn-color mt-30">
-                      <span>Discover Work</span>
+                      <span>request a quote</span>
                     </NuxtLink>
                   </div>
                 </div>

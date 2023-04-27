@@ -2043,6 +2043,7 @@ span:hover {
     height: 100%;
     left: 0;
     top: 0;
+    opacity: 0.5;
 }
 
 .cta__slider-item .media-wrapper .bg-img {
@@ -2051,6 +2052,7 @@ span:hover {
     height: 100%;
     right: 0;
     top: 0;
+    opacity: 0.5;
 }
 
 .cta__slider-item .container {
