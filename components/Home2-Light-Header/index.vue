@@ -18,7 +18,7 @@
                       </h1>
                     </div>
                     <p>We make quality-focused web & interactive experiences, branding, apps, and creative solutions that both add value to your organization and reflect your brand’s messaging.</p>
-                    <NuxtLink to="#0" class="btn-curve btn-color mt-30">
+                    <NuxtLink to="/work-with-us" class="btn-curve btn-color mt-30">
                       <span>request a quote</span>
                     </NuxtLink>
                   </div>
