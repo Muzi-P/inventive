@@ -138,7 +138,7 @@ export default {
         method: "post",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: this.encode({
-          "form-name": "book-venue",
+          "form-name": "work-with-us",
           ...this.contactData
         })
       }).then(() => {
