@@ -4,13 +4,16 @@
       <div class="row">
         <div class="col-lg-5">
           <div class="exp-img wow fadeInUp" data-wow-delay=".3s">
-            <div class="img bg-img wow imago" style="background-image:url('/img/exp.jpg')">
+            <div class="img bg-img wow imago" style="background-image:url('/img/exp.jpeg')">
               <div class="since custom-font">
                 <span>Since</span>
                 <span>{{ aboutData.since }}</span>
               </div>
+              <div class="logo">
+                <img src="/img/logo (2).png" alt="">
+              </div>
               <div class="years custom-font">
-                <h2>{{ aboutData.years }}</h2>
+                <h3>{{ aboutData.years }}</h3>
                 <h5>Years Experience</h5>
               </div>
             </div>
@@ -19,8 +22,8 @@
         <div class="col-lg-7 valign">
           <div class="exp-content wow fadeInUp" data-wow-delay=".3s">
             <h6 class="sub-title">About Us</h6>
-            <h2 class="mb-20 playfont">Best Designers <br> Architectures for You.</h2>
-            <p>
+            <h2 class="mb-20 playfont">We deliver your Software Solutions, Effortlessly..</h2>
+            <p class="justify-content">
               {{ aboutData.text }}
             </p>
             <div class="numbers mt-50">

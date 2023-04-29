@@ -2266,6 +2266,16 @@ span:hover {
     top: 70px;
 }
 
+.about .exp-img .img .logo {
+    position: absolute;
+    right: 132px;
+    top: 183px;
+}
+
+.about .exp-img .img .logo img {
+    width: 140px;
+}
+
 .about .exp-img .img .since span {
     display: block;
     color: #b19777;
@@ -2287,8 +2297,8 @@ span:hover {
     bottom: 70px;
 }
 
-.about .exp-img .img .years h2 {
-    font-size: 140px;
+.about .exp-img .img .years h3 {
+    font-size: 100px;
     font-weight: 800;
     background: url(/img/exp.jpg) no-repeat;
     background-position: 18% 65%;

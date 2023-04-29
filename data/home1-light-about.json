@@ -1,19 +1,18 @@
 {
-  "since": "1999",
-  "years": "21",
-  "text": "Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi.",
-  "numbers": [
-    {
-      "value": "352",
-      "title": "Projects Completed"
-    },
-    {
-      "value": "567",
-      "title": "Satisfied Clients"
-    },
-    {
-      "value": "17",
-      "title": "Awards Won"
-    }
-  ]
+    "since": "2017",
+    "years": "6",
+    "text": "Inventive started its journey in 2019 with an ambition to build a software team which will provide software services using cutting edge technologies ensuring quality and reliability.Our main aim is to develop in a constant manner and become a leading performer in this competitive global marketplace. We have already had great success stories with companies like TeaZeap and Eswatini Electricity Company",
+    "numbers": [{
+            "value": "23",
+            "title": "Projects Completed"
+        },
+        {
+            "value": "15",
+            "title": "Satisfied Clients"
+        },
+        {
+            "value": "17",
+            "title": "Solutions Delivered"
+        }
+    ]
 }

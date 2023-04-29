@@ -1,11 +1,11 @@
 <template>
   <div>
-    <Navbar ref="navbar" theme="light" />
+    <Navbar ref="navbar" theme="dark" />
     <Home2-Light-Header />
     <Home3-Light-Services />
     <Home3-Light-Works />
-    <Home3-Light-About />
-    <Home3-Light-Numbers />
+    <Home1-Light-About />
+    <!-- <Home3-Light-Numbers /> -->
     <Home3-Light-Testimonials />
     <Home2-Light-News />
     <Footer />
