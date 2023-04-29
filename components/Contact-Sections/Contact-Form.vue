@@ -109,7 +109,7 @@ export default {
   },
   computed: {
     subject() {
-      return `Mone Reve Customer Contact:  ${this.contactData.name} ${this.contactData.surname}`;
+      return `Inventive Customer Contact:  ${this.contactData.name} ${this.contactData.surname}`;
     }
   },
   methods: {
