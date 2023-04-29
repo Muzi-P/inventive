@@ -3,7 +3,7 @@
     <div class="container">
       <!-- Logo -->
       <NuxtLink to="/" class="logo">
-        <img ref="lr" src="/img/logo-light.png"  alt="logo" v-if="showLogo !== false" />
+        <img ref="lr" src="/img/logo-light.png"  alt="logo" v-if="showLogo !== false" style="width: 120%"/>
       </NuxtLink>
 
       <button

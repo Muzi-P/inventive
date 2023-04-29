@@ -65,6 +65,7 @@
               <img
                 :src="appData.lightLogo"
                 alt=""
+                style="width: 60%"
               >
             </div>
             <div class="social">
