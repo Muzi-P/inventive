@@ -4,15 +4,15 @@
       <div class="row row justify-content-center">
         <div class="col-lg-6 mb-30 text-center">
           <div class="htit">
-            <h4>Request Event Quote</h4>
+            <h4>Let Us Connect!</h4>
           </div>
         </div>
       </div>
       <div class="row row justify-content-center">
         <div class="col-lg-6 mb-30 text-center">
           <div class="text">
-            <p>
-              We are delighted to invite you to experience Mon Reve, our exquisite venue that promises to make your next event unforgettable. With its luxurious and sophisticated ambiance, Mon Reve provides the perfect setting for any occasion, from intimate gatherings to grand celebrations.
+            <p class="justify-content">
+              Our team of researchers, designers,engineers and project managers learn what you do, why you do it, and why it matters. We get to know your audience, your competition, and the market forces at play in your industry. From there, we craft story elements that captivate your customers and move them to action.
             </p>
           </div>
         </div>

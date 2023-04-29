@@ -10,18 +10,18 @@
 
 <script>
 export default {
-  name: 'BookVenue',
+  name: 'WorkWithUs',
   layout: "dark",
   head() {
     return {
-      titleTemplate: "%s - Book Venue",
+      titleTemplate: "%s - Work With Us",
     }
   },
   data() {
     return {
-      title: "Book Our Venue",
+      title: "Work With Us",
       fullPath: [
-        { title: 'Book Our Venue', link: "/book-venue" }
+        { title: 'Work With Us', link: "/work-with-us" }
       ]
     }
   },
