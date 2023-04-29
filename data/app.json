@@ -3,34 +3,29 @@
     "darkLogo": "/img/logo-dark.png",
     "mapIframe": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29695.671230259337!2d2.3558151621751584!3d48.86295242559001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2z2YXYqtit2YEg2KfZhNmE2YjZgdix!5e0!3m2!1sar!2seg!4v1642786626975!5m2!1sar!2seg",
     "address": {
-        "street": "170 Jericho",
-        "city": "Turnpike",
-        "state": "Floral Park",
-        "country": "New York 11001"
+        "street": "",
+        "city": "",
+        "state": "Manzini",
+        "country": "Swaziland"
     },
-    "email": "monreveeventsvenue@gmail.com",
-    "phone": "+87986451666",
+    "email": "phiwokuhlegondwe@gmail.com",
+    "phone": "+26876321807",
     "footerNews": [{
             "id": 1,
             "img": "/img/blog/event-goals.png",
-            "title": "Your Event Goals Should Determine Your Venue Contract Not The Other Way Around",
+            "title": "Creating a User-Centered Design with Prototyping",
             "date": "14 Jan 2022"
         },
         {
             "id": 2,
             "img": "/img/blog/event-budget.png",
-            "title": "Here's Why Your Event Budget Needs To Increase In 2023",
-            "date": "22 Sep 2022"
+            "title": "Design Thinking: The Key to Effective UI/UX Design",
+            "date": "22 Sep 2023"
         }
     ],
-    "footerText": "Mon Reve. Made with passion by",
+    "footerText": "Inventive. Made with passion by",
     "themeAuthors": [{
-            "name": "Muzi P. Gondwe &",
-            "href": "https://muzi-gondwe.netlify.app/index.html"
-        },
-        {
-            "name": "Robby St Georges",
-            "href": "0#"
-        }
-    ]
+        "name": "Muzi P. Gondwe",
+        "href": "https://muzi-gondwe.netlify.app/index.html"
+    }]
 }

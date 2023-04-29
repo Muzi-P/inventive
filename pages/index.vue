@@ -5,7 +5,6 @@
     <Home3-Light-Services />
     <Home3-Light-Works />
     <Home1-Light-About />
-    <!-- <Home3-Light-Numbers /> -->
     <Home3-Light-Testimonials />
     <Home2-Light-News />
     <Footer />
