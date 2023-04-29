@@ -14,8 +14,17 @@
           <div class="item-bx bg-img wow fadeInUp" :data-wow-delay="`${0.3 + idx * 0.2}s`" :style="`background-image:url('${service.image}')`">
             <span :class="`icon flaticon-${service.icon}`"></span>
             <h6 class="mb-20">{{ service.title }}</h6>
-            <p class="justify-content">{{ service.description }}</p>
-            <NuxtLink to="#0" class="more custom-font mt-30">Read More</NuxtLink>
+            <span v-if="service.truncated">
+              <span v-if="!service.expanded">
+                <p class="justify-content"  @click="handleExpand">{{ handleDescription(service) }} <span class="read-more" @click="handleExpand(service)">Read more</span> </p>
+              </span>
+              <span v-else>
+                <p class="justify-content"  @click="handleExpand">{{ service.description}} <span class="read-more" @click="handleExpand(service)">Read less</span> </p>
+              </span>
+            </span>
+            <span v-else>
+              <p class="justify-content ">{{ handleDescription(service) }}</p>
+            </span>
           </div>
         </div>
       </div>
@@ -30,8 +39,40 @@ export default {
   name: "Home3-Light-Services",
   data() {
     return {
-      services: Home3LightServicesData
+      services: [],
+      expanded: false
     }
-  }
+  },
+  mounted() {
+    let formattedServices = Home3LightServicesData.map(service => {
+        service['truncated'] = service.description.length > 300
+        service['expanded'] = false
+        return service
+      })
+    this.services = formattedServices
+  },
+  methods: {
+    handleDescription (service) {
+      return service.description.length > 300 ? `${service.description.slice(0, 300)} ...` : service.description
+    },
+    handleExpand (service) {
+      let updatedServices = [...this.services]
+
+      updatedServices.forEach(s => {
+        if (s.id == service.id) {
+          s.expanded = !service.expanded
+        }
+      })
+
+      this.services = updatedServices
+    },
+  },
 }
 </script>
+
+<style scoped>
+.read-more {
+  color: #c5a47e;
+  cursor: pointer;
+}
+</style>

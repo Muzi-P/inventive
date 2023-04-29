@@ -11,9 +11,8 @@
               <li>
                 <span class="icon pe-7s-map-marker" />
                 <div class="cont">
-                  <h6>Officeal Address</h6>
+                  <h6>Official Address</h6>
                   <p>
-                    {{ appData.address.street }} . {{ appData.address.city }},
                     {{ appData.address.state }} , {{ appData.address.country }}
                   </p>
                 </div>
@@ -66,6 +65,7 @@
               <img
                 :src="appData.lightLogo"
                 alt=""
+                style="width: 60%"
               >
             </div>
             <div class="social">

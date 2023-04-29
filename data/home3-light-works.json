@@ -1,31 +1,31 @@
 [{
         "id": 1,
         "image": "/img/portfolio/metro/work_01.jpg",
-        "title": "Weddings and Aniversaries",
-        "text": "Jenifer's Special Day"
+        "title": "Websites Development",
+        "text": "Verifacts Academy"
     },
     {
         "id": 2,
-        "image": "/img/portfolio/metro/work_02.jpg",
-        "title": "Birthdays and Baby Showers",
-        "text": "Jenny's Twins Birthday Celebration"
+        "image": "/img/portfolio/metro/work_02.png",
+        "title": "Mobile Apps Development",
+        "text": "DBS Bank Chatbot UI"
     },
     {
         "id": 3,
-        "image": "/img/portfolio/metro/work_03.jpg",
-        "title": "Coporate Events and Many More",
-        "text": "Tezeap's Conference and Training Session"
+        "image": "/img/portfolio/metro/work_03.png",
+        "title": "Cybersecurity & Data Analytics",
+        "text": "Admin Dashboard - SEC"
     },
     {
         "id": 4,
-        "image": "/img/portfolio/metro/work_04.jpg",
-        "title": "Weddings and Aniversaries",
-        "text": "Trevor and Annah's Wedding."
+        "image": "/img/portfolio/metro/work_04.png",
+        "title": "IT Services: Recruitment",
+        "text": "TeaZeap Recruitment Agency."
     },
     {
         "id": 5,
-        "image": "/img/portfolio/metro/work_05.jpg",
-        "title": "Birthdays and Baby Showers",
-        "text": "Veronica's Birthday Party"
+        "image": "/img/portfolio/metro/work_05.png",
+        "title": "Custom Platform Development",
+        "text": "Archive Management System - Taiwan Government"
     }
 ]

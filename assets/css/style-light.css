@@ -1661,7 +1661,8 @@ span:hover {
 
 .light,
 .nav-scroll {
-    background: #fff;
+    /* background: #fff; */
+    background: #252531;
     -webkit-box-shadow: 0px 10px 30px rgba(37, 37, 49, 0.1);
     box-shadow: 0px 10px 30px rgba(37, 37, 49, 0.1);
     padding: 0;
@@ -1679,12 +1680,12 @@ span:hover {
 
 .light .icon-bar,
 .nav-scroll .icon-bar {
-    color: #222;
+    /* color: #222; */
 }
 
 .light .navbar-nav .nav-link,
 .nav-scroll .navbar-nav .nav-link {
-    color: #222;
+    /* color: #222; */
 }
 
 .light .navbar-nav .logo,
@@ -2066,6 +2067,7 @@ span:hover {
     height: 100%;
     right: 0;
     top: 0;
+    opacity: 0.5;
 }
 
 .cta__slider-item .container {
@@ -2265,6 +2267,16 @@ span:hover {
     top: 70px;
 }
 
+.about .exp-img .img .logo {
+    position: absolute;
+    right: 132px;
+    top: 183px;
+}
+
+.about .exp-img .img .logo img {
+    width: 140px;
+}
+
 .about .exp-img .img .since span {
     display: block;
     color: #b19777;
@@ -2286,8 +2298,8 @@ span:hover {
     bottom: 70px;
 }
 
-.about .exp-img .img .years h2 {
-    font-size: 140px;
+.about .exp-img .img .years h3 {
+    font-size: 100px;
     font-weight: 800;
     background: url(/img/exp.jpg) no-repeat;
     background-position: 18% 65%;
@@ -2593,6 +2605,11 @@ span:hover {
 
 .services .item {
     margin-bottom: 16px;
+}
+
+.services .item:hover {
+    translate: 0 -2px;
+    transition-duration: 1s;
 }
 
 .services.halfbg .ontop {

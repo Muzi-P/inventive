@@ -64,40 +64,13 @@
           >
         </div>
       </div>
-      <div class="form-row">
-        <div class="form-group col-md-6  d-flex flex-column">
-          <label for="form_event_type">Event Type</label>
-          <el-select
-            v-model="contactData.eventType"
-            placeholder="Select"
-            required="required"
-          >
-            <el-option
-              v-for="item in eventOptions"
-              :key="item.value"
-              :label="item.label"
-              :value="item.value"
-            />
-          </el-select>
-        </div>
-        <div class="form-group col-md-6 d-flex flex-column">
-          <label for="event_date">Event Date</label>
-          <el-date-picker
-            v-model="contactData.eventDate"
-            format="dd MMMM yyyy"
-            value-format="yyyy-MM-dd"
-            type="date"
-            required="required"
-          />
-        </div>
-      </div>
       <div class="form-group">
         <label for="form_message">Message</label>
         <textarea
           id="form_message"
           v-model="contactData.message"
           name="message"
-          placeholder="Message"
+          placeholder="What can we do for you?"
           rows="4"
           required="required"
         />
@@ -142,66 +115,14 @@ export default {
         email: "",
         message: "",
         phoneNumber: "",
-        eventDate: null,
-        eventType: "",
         subject: "This is a test subject"
       },
-      eventOptions: [
-        {
-          label: "Corporate Event",
-          value: "corporateEvent"
-        },
-        {
-          label: "Social Event",
-          value: "socialEvent"
-        },
-        {
-          label: "Photo/Film Shoot",
-          value: "photoShoot"
-        },
-        {
-          label: "Wedding",
-          value: "wedding"
-        },
-        {
-          label: "Team Outing",
-          value: "teamOuting"
-        },
-        {
-          label: "Engagement Party",
-          value: "engagementParty"
-        },
-        {
-          label: "Bridal Shower",
-          value: "bridalShower"
-        },
-        {
-          label: "Meeting",
-          value: "meeting"
-        },
-        {
-          label: "Baby Shower",
-          value: "babyShower"
-        },
-        {
-          label: "Birthday Party",
-          value: "birthdayParty"
-        },
-        {
-          label: "Holiday Party",
-          value: "holidayParty"
-        },
-        {
-          label: "Other",
-          value: "Other"
-        }
-      ],
       errMessage: ""
     };
   },
   computed: {
     subject() {
-      return `Mone Reve Event Booked For ${this.contactData.eventDate}:  ${this.contactData.name} ${this.contactData.surname}`;
+      return `${this.contactData.name} ${this.contactData.surname} (${this.contactData.email}) left a request to work with us`;
     }
   },
   methods: {
@@ -251,7 +172,7 @@ export default {
     },
     sendMessage() {
       this.$swal({
-        title: "Reservation request sent",
+        title: "Enquiry Recieved",
         text: "Our team will be in touch with you",
         icon: "success",
         confirmButtonText: "Ok"

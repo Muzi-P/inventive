@@ -3,7 +3,7 @@
     <div class="container">
       <!-- Logo -->
       <NuxtLink to="/" class="logo">
-        <img ref="lr" src="/img/logo-light.png"  alt="logo" v-if="showLogo !== false" />
+        <img ref="lr" src="/img/logo-light.png"  alt="logo" v-if="showLogo !== false" style="width: 120%"/>
       </NuxtLink>
 
       <button
@@ -24,26 +24,6 @@
       <!-- navbar links -->
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
-          <!-- <li class="nav-item dropdown" @click="handleDropdown">
-            <span
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Home
-            </span>
-            <div class="dropdown-menu">
-              <NuxtLink class="dropdown-item" to="/home1">Home Default</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/home2">Interior Agency</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/home3">Creative Arch</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/home4">Architecture Studio</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/home1-light">Home Light</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/home2-light">Interior Light</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/home3-light">Architecture Light</NuxtLink>
-            </div>
-          </li> -->
            <li class="nav-item">
             <NuxtLink class="nav-link" to="/">Home</NuxtLink>
           </li>
@@ -51,7 +31,7 @@
             <NuxtLink class="nav-link" :to="{ path: '/',hash:'#contact'}">About</NuxtLink>
           </li>
           <li class="nav-item">
-            <NuxtLink class="nav-link" to="/book-venue">Book Venue</NuxtLink>
+            <NuxtLink class="nav-link" to="/work-with-us">Work With Us</NuxtLink>
           </li>
           <li class="nav-item">
             <NuxtLink class="nav-link" :to="{ path: '/',hash:'#blog'}">Blog</NuxtLink>
@@ -59,41 +39,6 @@
           <li class="nav-item">
             <NuxtLink class="nav-link" to="/contact">Contact</NuxtLink>
           </li>
-          <!-- <li class="nav-item dropdown" @click="handleDropdown">
-            <span
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Portfolio
-            </span>
-            <div class="dropdown-menu">
-              <NuxtLink class="dropdown-item" to="/works1">Two Column</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/works2">Three Column</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/works3">Four Column</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/project-details">Single Project</NuxtLink>
-            </div>
-          </li>
-          <li class="nav-item dropdown" @click="handleDropdown">
-            <span
-              class="nav-link dropdown-toggle"
-              data-toggle="dropdown"
-              role="button"
-              aria-haspopup="true"
-              aria-expanded="false"
-            >
-              Blog
-            </span>
-            <div class="dropdown-menu">
-              <NuxtLink class="dropdown-item" to="/blog">Blogs</NuxtLink>
-              <NuxtLink class="dropdown-item" to="/blog-details">Post Details</NuxtLink>
-            </div>
-          </li>
-          <li class="nav-item">
-            <NuxtLink class="nav-link" to="/contact">Contact</NuxtLink>
-          </li> -->
         </ul>
       </div>
     </div>

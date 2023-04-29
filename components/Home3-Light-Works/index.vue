@@ -16,11 +16,11 @@
           <swiper :options="swiperOptions">
             <swiper-slide v-for="work, idx in works" :key="idx">
               <div class="content wow fadeInUp" data-wow-delay=".3s">
-                <div class="item-img bg-img wow imago rounded-item" :style="`background-image:url('${work.image}')`"></div>
-                <div class="cont">
-                  <h6><NuxtLink to="#0">{{ work.title }}</NuxtLink></h6>
+                <div class="cont mb-40">
                   <h4><NuxtLink to="#0">{{ work.text }}</NuxtLink></h4>
+                  <h6><NuxtLink to="#0">{{ work.title }}</NuxtLink></h6>
                 </div>
+                <div class="item-img bg-img wow imago rounded-item" :style="`background-image:url('${work.image}')`"></div>
               </div>
             </swiper-slide>
           </swiper>

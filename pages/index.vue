@@ -1,11 +1,10 @@
 <template>
   <div>
-    <Navbar ref="navbar" theme="light" />
-    <Home3-Light-Header />
+    <Navbar ref="navbar" theme="dark" />
+    <Home2-Light-Header />
     <Home3-Light-Services />
     <Home3-Light-Works />
-    <Home3-Light-About />
-    <Home3-Light-Numbers />
+    <Home1-Light-About />
     <Home3-Light-Testimonials />
     <Home2-Light-News />
     <Footer />
@@ -18,7 +17,7 @@ export default {
   layout: "light",
   head() {
     return {
-      titleTemplate: "%s - Event Venue",
+      titleTemplate: "%s",
     }
   },
   mounted() {

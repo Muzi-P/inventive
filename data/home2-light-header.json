@@ -1,21 +1,21 @@
 [{
         "background": "/img/slid/n/01.jpg",
-        "type": "interior",
-        "title": "design agency"
+        "type": "Design",
+        "title": "Web & Mobile App Development"
     },
     {
         "background": "/img/slid/n/02.jpg",
         "type": "Innovative",
-        "title": "Interior Design"
+        "title": "UI/UX Design & Prototyping"
     },
     {
         "background": "/img/slid/n/03.jpg",
-        "type": "Elegant",
-        "title": "Unique Design"
+        "type": "Engineering",
+        "title": "Custom Platform Development"
     },
     {
         "background": "/img/slid/n/04.jpg",
-        "type": "Elegant",
-        "title": "Unique Design"
+        "type": "IT Services",
+        "title": "Cybersecurity & Data Analytics"
     }
 ]
