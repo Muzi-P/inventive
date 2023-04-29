@@ -1661,7 +1661,8 @@ span:hover {
 
 .light,
 .nav-scroll {
-    background: #fff;
+    /* background: #fff; */
+    background: #252531;
     -webkit-box-shadow: 0px 10px 30px rgba(37, 37, 49, 0.1);
     box-shadow: 0px 10px 30px rgba(37, 37, 49, 0.1);
     padding: 0;
@@ -1679,12 +1680,12 @@ span:hover {
 
 .light .icon-bar,
 .nav-scroll .icon-bar {
-    color: #222;
+    /* color: #222; */
 }
 
 .light .navbar-nav .nav-link,
 .nav-scroll .navbar-nav .nav-link {
-    color: #222;
+    /* color: #222; */
 }
 
 .light .navbar-nav .logo,
