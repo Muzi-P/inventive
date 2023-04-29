@@ -1,22 +1,22 @@
 [{
         "id": 1,
-        "image": "/img/slid/n/service_01.jpg",
+        "image": "/img/slid/n/01.jpg",
         "icon": "home-1",
-        "title": "Weddings and Aniversaries",
-        "description": "We are committed to providing you with an experience beyond your expectations. Choose one of Mon Reve's event venue’s for your special day that will leave a lasting impression on your loved ones and your guests."
+        "title": "Web & Mobile App Development",
+        "description": "As a web design company, we work hand in hand with you, from a consultation phase wherein we have a discovery call to understand your expectations, the scope of the project and then set a strategy together. We collaborate on the User Experience (UX) and User Interface (UI), color palettes, development and designs all the way through to going LIVE! At the end of the project, we then provide best practice training along with Hosting and Maintenance."
     },
     {
         "id": 2,
-        "image": "/img/slid/n/service_02.jpg",
+        "image": "/img/slid/n/service_02.jpeg",
         "icon": "living-room",
-        "title": "Birthdays and Baby Showers",
-        "description": "No matter the year to be celebrated, Mon Reve will help you to coordinate a memorable birthday party.If you are planning to host a baby shower, a popular option is to book one of Mon Reve's event venue’s"
+        "title": "UI/UX Design & Prototyping",
+        "description": "A great website is easy to navigate. It’s visually pleasing but not distracting. The design reflects your story, brand and reinforces your message. The design and copy harmonize to tell a clear story, directing the viewer where you want their eyes to go."
     },
     {
         "id": 3,
-        "image": "/img/slid/n/service_03.jpg",
+        "image": "/img/slid/n/04.jpg",
         "icon": "interior-design",
-        "title": "Coporate Events and Many More",
-        "description": "We cater to executive board meetings, strategy sessions, conferences, training sessions and workshops. Mon Reve is a quiet place that allows for uninterrupted strategic planning, creativity and new idea creation."
+        "title": "Cybersecurity & Data Analytics",
+        "description": "We help you stay ahead of cloud, data, and network security challenges.Cloud transformation and work from anywhere have changed how security needs to work. Inventive sees and understands these changes and works with you to protect people and data anywhere they go, no matter what."
     }
 ]

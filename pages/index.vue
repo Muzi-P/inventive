@@ -1,6 +1,14 @@
 <template>
   <div>
-    <Coming-Soon />
+    <Navbar ref="navbar" theme="light" />
+    <Home2-Light-Header />
+    <Home3-Light-Services />
+    <Home3-Light-Works />
+    <Home3-Light-About />
+    <Home3-Light-Numbers />
+    <Home3-Light-Testimonials />
+    <Home2-Light-News />
+    <Footer />
   </div>
 </template>
 
@@ -10,10 +18,23 @@ export default {
   layout: "light",
   head() {
     return {
-      titleTemplate: "%s - Event Venue",
+      titleTemplate: "%s",
     }
   },
   mounted() {
+    document.body.classList.remove('index2');
+    document.body.classList.remove('index3');
+    document.body.classList.remove('index4');
+
+    var navbar = this.$refs.navbar.$el;
+
+    if (window.pageYOffset > 300) navbar.classList.add("nav-scroll");
+    else navbar.classList.remove("nav-scroll");
+
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 300) navbar.classList.add("nav-scroll");
+      else navbar.classList.remove("nav-scroll");
+    });
   }
 }
 </script>

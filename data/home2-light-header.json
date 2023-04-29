@@ -1,7 +1,7 @@
 [{
         "background": "/img/slid/n/01.jpg",
         "type": "Design",
-        "title": "Web Design & Development"
+        "title": "Web & Mobile App Development"
     },
     {
         "background": "/img/slid/n/02.jpg",
@@ -15,7 +15,7 @@
     },
     {
         "background": "/img/slid/n/04.jpg",
-        "type": "Optimization",
-        "title": "Perfomance Analytics"
+        "type": "IT Services",
+        "title": "Cybersecurity & Data Analytics"
     }
 ]

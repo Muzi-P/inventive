@@ -2596,6 +2596,11 @@ span:hover {
     margin-bottom: 16px;
 }
 
+.services .item:hover {
+    translate: 0 -2px;
+    transition-duration: 1s;
+}
+
 .services.halfbg .ontop {
     position: relative;
     margin-top: -120px;
