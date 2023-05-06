@@ -99,7 +99,7 @@
 	/*------------- [_Header_Height] --------------*/
 	/*=============================================*/
 	var headerHeight = $('.header-style-two').height();
-	$('.header-style-two').css('height', headerHeight);
+	// $('.header-style-two').css('height', headerHeight);
 
 
 	jQuery(document).on('ready', function() {

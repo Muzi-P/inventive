@@ -52,14 +52,14 @@ if(isset($_POST['submit'])){
                  <h2 style="color: #4BB543">Message Sent Successfully! Thank you for contacting us.</h2>
                 </div>';
                 ?>
-                <script>setTimeout(function() { location.replace("http://webextheme.com/html/insuren-html/v3/")},4000);</script>
+                <script>setTimeout(function() { location.replace("http://webextheme.com/html/Inventive-html/v3/")},4000);</script>
                 <?php
   } catch (Exception $e){
     echo $alert = '<div class="alert-error">
                 <h2 style="color: #E03A3E">'.$e->getMessage().'</h2>
               </div>';
               ?>
-              <script>setTimeout(function() { location.replace("http://webextheme.com/html/insuren-html/v3/")},4000);</script>
+              <script>setTimeout(function() { location.replace("http://webextheme.com/html/Inventive-html/v3/")},4000);</script>
               <?php
   }
 }

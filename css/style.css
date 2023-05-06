@@ -1,13 +1,6 @@
 @charset "UTF-8";
 
 /*============================================================
- # Template Name: Insuren - Corporate Consulting HTML5 Template
- # Template URI: https://webextheme.com/html/insuren-html/
- # Description: Insurance Agency HTML Template
- # Author: WebexTheme
- # Author URI: https://themeforest.net/user/webextheme
- # Version: 1.0
-/*============================================================
 
 ============================================
 ------------ [CSS_INDEXING_START] ----------
@@ -1106,7 +1099,7 @@ div[class*='kursor'].kursor--1.kursor--down {
 .mean-container a.meanmenu-reveal {
     border: 1px solid var(--primary-color);
     color: var(--primary-color);
-    margin-top: -45px;
+    margin-top: -28px;
 }
 
 .mean-container a.meanmenu-reveal span {
@@ -1540,7 +1533,11 @@ div[class*='kursor'].kursor--1.kursor--down {
 /*========================================*/
 
 .logo {
-    padding-top: 1.3125rem;
+    padding-top: 0;
+}
+
+.navbar-logo {
+    height: 30px;
 }
 
 
@@ -1775,7 +1772,7 @@ div[class*='kursor'].kursor--1.kursor--down {
 }
 
 .header-style-two .header-wrapper .header-navigation-area .main-menu ul li a {
-    padding: 45px 0;
+    padding: 12px 0;
     display: block;
     color: #213442;
     font-weight: 700;
@@ -2048,7 +2045,7 @@ div[class*='kursor'].kursor--1.kursor--down {
 .header-searchbox-style-two {
     position: relative;
     float: right;
-    margin-top: 6px;
+    margin-top: 0px;
     margin-left: 30px;
 }
 
@@ -2066,7 +2063,7 @@ div[class*='kursor'].kursor--1.kursor--down {
     display: block;
     text-align: center;
     line-height: 55px;
-    margin: 25px 0 30px;
+    margin: 0px 0 8px;
 }
 
 .header-searchbox-style-two .show-searchbox a i {
@@ -2161,7 +2158,7 @@ div[class*='kursor'].kursor--1.kursor--down {
 .header-top-area {
     font-size: 14px;
     color: #fff;
-    padding: 10px 0;
+    padding: 5px 0;
 }
 
 .header-top-area a {
@@ -2388,7 +2385,7 @@ div[class*='kursor'].kursor--1.kursor--down {
 .side-panel {
     width: 36px;
     float: right;
-    padding-top: 38px;
+    padding-top: 12px;
     cursor: pointer;
     margin-left: 10px;
 }
