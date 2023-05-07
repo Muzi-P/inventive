@@ -882,8 +882,8 @@
 
 	});
 
-	new kursor({
-		type: 1,
-		color: '#D1E1FC'
-	})
+	// new kursor({
+	// 	type: 1,
+	// 	color: '#D1E1FC'
+	// })
 }(jQuery));
