@@ -905,15 +905,23 @@
 		let email = document.getElementById("contact-email").value;
 		let serviceType = document.getElementById("contact-service-type").value;
 
+		console.log({
+			"form-name": "inventive-contact",
+			name,
+			phone,
+			email,
+			message: serviceType,
+		  });
+
 		fetch("/", {
             method: "post",
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({
-              "form-name": "contact",
+              "form-name": "inventive-contact",
               name,
 			  phone,
 			  email,
-			  serviceType,
+			  message: serviceType,
             })
           }).then(() => {
 			Swal.fire({
