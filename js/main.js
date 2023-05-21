@@ -904,14 +904,7 @@
 		let phone = document.getElementById("contact-phone").value;
 		let email = document.getElementById("contact-email").value;
 		let serviceType = document.getElementById("contact-service-type").value;
-
-		console.log({
-			"form-name": "inventive-contact",
-			name,
-			phone,
-			email,
-			message: serviceType,
-		  });
+		let message = document.getElementById("contact-message").value;
 
 		fetch("/", {
             method: "post",
@@ -921,7 +914,8 @@
               name,
 			  phone,
 			  email,
-			  message: serviceType,
+			  message,
+			  subject: `Customer Contact - ${email}- ${serviceType}`
             })
           }).then(() => {
 			Swal.fire({
@@ -934,6 +928,7 @@
 				document.getElementById("contact-phone").value = "";
 				document.getElementById("contact-email").value = "";
 				document.getElementById("contact-service-type").value = "";
+				document.getElementById("contact-message").value = "";
 			  })
           });
 
