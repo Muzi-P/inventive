@@ -915,7 +915,7 @@
 			  phone,
 			  email,
 			  message,
-			  subject: `Customer Contact - ${email}- ${serviceType}`
+			  subject: `Customer Contact - ${email}- ${phone}`
             })
           }).then(() => {
 			Swal.fire({
