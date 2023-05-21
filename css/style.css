@@ -9245,4 +9245,19 @@ select {
 }
 
 
+/* sweat alert */
+
+.swal2-success-ring {
+    border: 0.25em solid #c5a47e !important
+}
+
+.swal2-styled.swal2-confirm {
+    background-color: #b19777;
+}
+
+.swal2-icon.swal2-success [class^=swal2-success-line] {
+    background-color: #c5a47e;
+}
+
+
 /*# sourceMappingURL=style.css.map */

@@ -1,11 +1,4 @@
-/*============================================================
- # Template Name: Enexus - Business Consulting HTML5 Template
- # Template URI: https://webextheme.com/html/enexus-html/
- # Description: Business Consulting HTML5 Template
- # Author: Enexus
- # Author URI: https://themeforest.net/user/webextheme
- # Version: 1.0
-/*============================================================
+
 
 /*========================================
 ---------- [JS_INDEXING_START] -----------
@@ -881,6 +874,64 @@
 		}
 
 	});
+
+
+	/*=============================================*/
+	/*------------ [From submit] ------------*/
+	/*=============================================*/
+
+	const form = document.getElementById('contact');
+
+	if (form.attachEvent) {
+		form.attachEvent("submit", processForm);
+	} else {
+		form.addEventListener("submit", processForm);
+	}
+
+
+	function encode(data) {
+		return Object.keys(data)
+		  .map(
+			key => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+		  )
+		  .join("&");
+	}
+
+	function processForm(e) {
+		if (e.preventDefault) e.preventDefault();
+
+		let name = document.getElementById("contact-name").value;
+		let phone = document.getElementById("contact-phone").value;
+		let email = document.getElementById("contact-email").value;
+		let serviceType = document.getElementById("contact-service-type").value;
+
+		fetch("/", {
+            method: "post",
+            headers: { "Content-Type": "application/x-www-form-urlencoded" },
+            body: encode({
+              "form-name": "contact",
+              name,
+			  phone,
+			  email,
+			  serviceType,
+            })
+          }).then(() => {
+			Swal.fire({
+				title: 'Message sent',
+				text: 'Our team will be in touch!!',
+				icon: 'success',
+				confirmButtonColor: '#c5a47e',
+			  }).then((result) => {
+				document.getElementById("contact-phone").value = ""
+				document.getElementById("contact-phone").value = "";
+				document.getElementById("contact-email").value = "";
+				document.getElementById("contact-service-type").value = "";
+			  })
+          });
+
+		return false;
+	}
+
 
 	// new kursor({
 	// 	type: 1,

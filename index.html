@@ -832,28 +832,29 @@
                     <div class="request-a-call-back-form mrb-md-60">
                         <h2 class="mrt-0 mrb-25 solid-bottom-line">Work With Us</h2>
                         <p class="mrb-30">
-                            Don't wait to bring your vision to life. Contact us for a quote now."
+                            Don't wait to bring your vision to life. Contact us for a quote now.
                         </p>
-                        <form action="#">
+                        <form id="contact" name="contact" method="POST" data-netlify="true" netlify-honeybot="bot-field">
+                            <input type="hidden" name="bot-field" value="contact" />
                             <div class="row">
                                 <div class="col-lg-12">
                                     <div class="mrb-20">
-                                        <input type="text" placeholder="Name" class="form-control" />
+                                        <input type="text" id="contact-name" placeholder="Name" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mrb-20">
-                                        <input type="text" placeholder="Phone" class="form-control" />
+                                        <input type="text" id="contact-phone" placeholder="Phone" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mrb-20">
-                                        <input type="email" placeholder="Email" class="form-control" />
+                                        <input id="contact-email" type="email" placeholder="Email" class="form-control" />
                                     </div>
                                 </div>
                                 <div class="col-lg-12">
                                     <div class="mrb-20">
-                                        <select name="categories" class="custom-select-categories" required="">
+                                        <select name="categories" id="contact-service-type" class="custom-select-categories" required="">
                                                 <option value="">Choose Service Type</option>
                                                 <option>Custom Software Development</option>
                                                 <option>Web Application Development</option>
@@ -1653,6 +1654,7 @@
     <script src="js/jquery.v1.12.4.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery-core-plugins.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="js/main.js"></script>
 </body>
 
