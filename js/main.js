@@ -191,7 +191,7 @@
           '<div class="service-item-link">' +
           '<a target="_blank" href="' +
           item.details +
-          '" class="cs-btn-one btn-primary-color btn-sm btn-block mrr-30">VIEW DETAILS</a>' +
+          '" class="cs-btn-one btn-primary-color btn-sm btn-block">VIEW DETAILS</a>' +
           "</div>" +
           "</div>" +
           "</div>" +
