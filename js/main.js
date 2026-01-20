@@ -148,13 +148,6 @@
         details: "https://muzi-gondwe.netlify.app/verifacts.html",
       },
       {
-        img: "images/service/service3.png",
-        title: "DBS Chatbot UI",
-        link: "https://www.dbs.com.sg/personal/default.page",
-        desc: "A Chatbot UI built with Responsive Web Design which send customer input message to DBS Chatbot and display response message as predefined UI layout from DBS Chatbot.",
-        details: "#",
-      },
-      {
         img: "images/service/service4.png",
         title: "SEC Dashboard",
         link: "https://www.dbs.com.sg/personal/default.page",
@@ -237,7 +230,7 @@
         },
         {
           accY: 0,
-        }
+        },
       );
     }
     if ($(".count-box").length) {
@@ -263,13 +256,13 @@
                 complete: function () {
                   $t.find(".count-text").text(this.countNum);
                 },
-              }
+              },
             );
           }
         },
         {
           accY: 0,
-        }
+        },
       );
     }
     /*=============================================*/
@@ -920,7 +913,7 @@
       if ($(this).attr("data-background")) {
         $(this).css(
           "background-image",
-          "url(" + $(this).data("background") + ")"
+          "url(" + $(this).data("background") + ")",
         );
       }
     });
@@ -1055,7 +1048,7 @@
   function encode(data) {
     return Object.keys(data)
       .map(
-        (key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`
+        (key) => `${encodeURIComponent(key)}=${encodeURIComponent(data[key])}`,
       )
       .join("&");
   }
