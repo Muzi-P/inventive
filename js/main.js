@@ -145,7 +145,7 @@
         title: "Verifacts Academy",
         link: "https://honda.dev.quasidea.com/login",
         desc: "A learning management system where clients users have the ability to purchase and take courses, run and download reporting.",
-        details: "https://muzi-gondwe.netlify.app/verifacts.html",
+        details: "#",
       },
       {
         img: "images/service/service4.png",
